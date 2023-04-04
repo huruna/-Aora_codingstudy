@@ -13,7 +13,8 @@ string solution(string number, int k)
                 count++;
                 break;
            }
-        }   
+        }
+        if(count == k) break;
     }
     
     // 숫자가 덜 제거된 경우 추가로 제거
