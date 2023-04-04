@@ -15,6 +15,8 @@ string solution(string number, int k)
            }
         }   
     }
+    
+    // 숫자가 덜 제거된 경우 추가로 제거
     if(count != k) {
         number.erase(number.size() - (k - count), k - count);
     }
